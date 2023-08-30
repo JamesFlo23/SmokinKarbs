@@ -1,10 +1,5 @@
-.App {
+#App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,7 +8,7 @@
   }
 }
 
-.App-header {
+#App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +30,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list{
+  display: none;
 }
