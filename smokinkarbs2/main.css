@@ -1,7 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
 #mainTitle{
 background-image: url("backgroundWeed.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 color: #0ea01a;
 text-shadow: 2px 2px 4px rgb(13, 65, 209);
+height: 100px;
+}
+
+
+.navbar{
+background-color: black;
+color: white;
+}
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li{
+  list-style: none;
+  padding: 1rem;
+}
+.navbar-links li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navbar-links li:hover{
+  background-color: #0ea01a;
+  border-radius: 10% / 50%;;
+}
+.navbar-links li:hover a{
+  color:rgb(255, 238, 0);
+}
+.toggle-button{
+  color: white;
+  display: none;
+}
+
+
+@media (max-width: 600px){
+  .toggle-button{
+    display: flex;
+  }
 }
